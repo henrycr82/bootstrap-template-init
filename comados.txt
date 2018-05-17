@@ -1,0 +1,12 @@
+npm init --yes para comenzar un proyecto node.js, esto  nos crea un archivo package.json en el directorio raíz de nuestro proyecto
+
+Instalación de paquetes o dependencias necesarios para nuestro proyecto
+
+npm install bootstrap font-awesome jquery popper.js //dependencias de producción de mi proyecto
+
+la opción -D instala la dependencias en una sección aparte, no las instala en dependencies, porque las que están en dependencies son las dependencias de las cuales mi proyecto depende, porque mi proyecto no depende de las dependencias que instalo con el comando npm install -D gulp gulp-cli gulp-sass browser-sync, estas son herramientas que me van ayudar a desarrollar mi proyecto.
+
+npm install -D gulp gulp-cli gulp-sass browser-sync //dependencias para el desarrollo de mi proyecto
+
+con el comando npm start (me ejecuta por defecto el comando gulp) ejecutamos las tareas que creamos en el archivo gulpfile.js
+
